@@ -1,6 +1,6 @@
 public class Employee{
 	private int employeeId;
-	private String employeeName;
+	private String firstName;
 	
 	public Employee(){
 		this.employeeId = 1;
@@ -15,12 +15,12 @@ public class Employee{
 		
 	}
 	
-	public void setEmployeeName(String employeeName);
-		this.employeeName = employeeName;
+	public void setFirstName(String firstName);
+		this.firstName = firstName;
 	}
 	
-	public String getEmployeeName(){
-		return employeeName;
+	public String getFirstName(){
+		return firstName;
 		
 	}
 }
