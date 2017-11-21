@@ -16,7 +16,7 @@ public class Employee{
 	}
 
 	public void setEmployeeName(String employeeName);
-		this.id = id;
+		this.employeeName = employeeName;
 	}
 	
 	public String getEmployeeName(){
