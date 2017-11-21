@@ -1,5 +1,6 @@
 public class Employee{
 	private int employeeId;
+	private String name;
 	
 	public Employee(){
 		this.employeeId = 1;
@@ -13,5 +14,12 @@ public class Employee{
 		return employeeId;
 		
 	}
+	
+	public void setName(String name);
+		this.name = name;
+	}
+	
+	public int getName(){
+		return name;
 }
 	
