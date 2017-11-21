@@ -21,5 +21,6 @@ public class Employee{
 	
 	public int getName(){
 		return name;
+	}
 }
 	
