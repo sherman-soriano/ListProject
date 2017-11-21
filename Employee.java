@@ -1,5 +1,6 @@
 public class Employee{
-	private int employeeId;
+
+private int employeeId;
 	private String firstName;
 	
 	public Employee(){
@@ -21,7 +22,6 @@ public class Employee{
 	
 	public String getFirstName(){
 		return firstName;
-		
 	}
 }
 	
